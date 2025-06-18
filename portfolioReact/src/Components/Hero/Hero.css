@@ -34,13 +34,18 @@
     gap: 25px;
     font-size: 24px;
     font-weight: 500;
-    margin-bottom: 50px;
+    margin-bottom: 200px;
+    text-decoration: none;
 }
-
+.hero-action a {
+    color: #fff;
+    text-decoration: none;
+}
 .hero-connect {
     padding: 25px 45px;
     border-radius: 50px;
-    background: #4aff4d;
+    border: #ffffff 2px solid;
+    background: #0077B5;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -51,7 +56,8 @@
 .hero-resume {
     padding: 25px 75px;
     border-radius: 50px;
-    background: #4dffb3;
+    border: #ffffff 2px solid;
+    background: #00314b;
     cursor: pointer;
     transition: 0.5s;
 }

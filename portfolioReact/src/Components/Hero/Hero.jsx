@@ -1,16 +1,31 @@
 import React from 'react'
 import './hero.css'
-import profilebilde from '../../assets/profilbilde.jpeg'
+import profilebilde from '../../assets/profilbilde.png'
 
 const Hero = () => {
     return (
         <div id="home" className='hero'>
             <img src={profilebilde} alt="Profilbilde" />
-            <h1><span>Hei, jeg er Simen,</span> en IT-student ved universitetet i Agder!</h1>
-            <p>Jeg er en 22 år gammel student som studerer IT ved Universitetet i Agder. Jeg har en stor interesse for programmering og teknologi, og jeg elsker å lære nye ting. Jeg har erfaring med flere programmeringsspråk, inkludert JavaScript, Python og Java. Jeg er også interessert i webutvikling og har jobbet med HTML, CSS og React.</p>
+            <h1><span>Simen Emil Wiig Holmen</span></h1>
+            <p> Jeg er en 23 år gammel student som studerer 3. året på IT ved Universitetet i
+                Agder.
+            </p>
             <div className="hero-action">
-                <div className="hero-connect">Kontakt meg</div>
-                <div className="hero-resume">Last ned CV</div>
+                <a
+                    href="https://www.linkedin.com/in/simenholmen/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hero-connect"
+                >
+                    LinkedIn
+                </a>
+                <a
+                    href="cv.pdf"
+                    download
+                    className="hero-resume"
+                >
+                    Last ned CV
+                </a>
             </div>
         </div>
     )

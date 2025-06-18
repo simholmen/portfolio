@@ -4,6 +4,9 @@
     justify-content: space-between;
     margin: 20px 170px;
 }
+.navbar img{
+    width: 150px;
+}
 .navmenu{
     display: flex;
     align-items: center;
@@ -14,11 +17,22 @@
 .navconnect{
     padding: 20px 40px;
     border-radius: 50px;
-    background: #4aff4d;
+    background: #0077B5;
     font-size: 22px;
     cursor: pointer;
     transition: 0.5s;
+    color: #fff;
+    text-decoration: none;
 }
+.navmenu li:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.navmenu li:hover .anchor-link p{
+    color: #cdcdcd;;
+
+} 
+
 .navconnect:hover{
     transform: scale(1.1);
 }
