@@ -1,34 +1,42 @@
 const Services_Data = [
     {
-        s_no:"01",
-        s_name:"Web design",
-        s_desc:"Web development is the process of building, programming..."
+        s_label: "Sommer 2025",
+        s_icons: [
+            "https://skillicons.dev/icons?i=react",
+            "https://skillicons.dev/icons?i=js",
+            "https://skillicons.dev/icons?i=html",
+            "https://skillicons.dev/icons?i=css"
+            
+        ],
+        s_no: "Sommer 2025",
+        s_name: "Portfolio React",
+        s_desc: "Laget denne porteføljen i React for å vise frem arbeidet og ferdighetene mine."
     },
     {
-        s_no:"02",
-        s_name:"Graphics design",
-        s_desc:"Web development is the process of building, programming..."
+        s_label: "Vår 2025",
+        s_icons: [
+            "https://skillicons.dev/icons?i=postgres",
+            "https://skillicons.dev/icons?i=python",
+            "https://skillicons.dev/icons?i=react",
+            "https://skillicons.dev/icons?i=docker",
+            "https://skillicons.dev/icons?i=supabase"
+        ],
+        s_no: "Vår 2025",
+        s_name: "Semesterprosjekt innen GIS og KI",
+        s_desc: "Semesterprosjekt som kombinerer GIS og kunstig intelligens for å finne en raskere rute enn Google Maps."
     },
     {
-        s_no:"03",
-        s_name:"Social media",
-        s_desc:"Web development is the process of building, programming..."
-    },
-    {
-        s_no:"04",
-        s_name:"App design",
-        s_desc:"Web development is the process of building, programming..."
-    },
-    {
-        s_no:"05",
-        s_name:"Digital marketing",
-        s_desc:"Web development is the process of building, programming..."
-    },
-    {
-        s_no:"06",
-        s_name:"Content writing",
-        s_desc:"Web development is the process of building, programming..."
+        s_label: "Høst 2024",
+        s_icons: [
+            "https://skillicons.dev/icons?i=html",
+            "https://skillicons.dev/icons?i=css",
+            "https://skillicons.dev/icons?i=tailwind",
+            "https://skillicons.dev/icons?i=c",
+        ],
+        s_no: "Høst 2024",
+        s_name: "Semesterprosjekt for Kartverket",
+        s_desc: "Semesterprosjekt i samarbeid med Kartverket, der vi utviklet en crowdsourcing-løsning for å forbedre kartdata."
     },
 ]
- 
+
 export default Services_Data;

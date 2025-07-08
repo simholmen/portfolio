@@ -18,11 +18,16 @@
     font-weight: 600;
 }
 
-.services-title img{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
+.skill-icon {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    flex-direction: row;
+}
+.services-icons-row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
 
 .services-format {
@@ -35,6 +40,8 @@
     border: 2px solid #fff;
     transition: 0.4s;
     cursor: pointer;
+    min-width: 600px; 
+    min-height: 370px;  
 }
 
 .services-format:hover{
@@ -44,11 +51,71 @@
     transition: 0.4s;
 }
 
-.services-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
-    margin-bottom: 80px;
+.services-container {
+    position: relative;
+    padding-left: 0px;
+}
+
+.services-container::before {
+    content: '';
+    position: absolute;
+    left: 92px;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: linear-gradient(180deg, #98ffd2 60%, #4aff4d 100%);
+    border-radius: 2px;
+    z-index: 0;
+}
+
+.services-timeline-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-height: 100px;
+    padding-left: 0px; /* No padding needed */
+    margin-bottom: 24px;
+}
+.services-timeline-marker {
+    display: flex;
+    align-items: center;
+    min-width: 150px; /* Adjust as needed */
+    margin-right: 24px;
+    position: relative;
+    justify-content: flex-end;
+}
+
+.services-timeline-label {
+    text-align: right;
+    font-size: 18px;
+    color: #fff;
+    margin-right: 12px;
+    min-width: 60px;
+}
+
+.services-timeline-dot {
+    width: 20px;
+    height: 20px;
+    background: #1f53fe;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    z-index: 2;
+    box-shadow: 0 0 0 2px #f48c0644;
+    position: relative;
+    /* No left or absolute positioning */
+}
+
+/* The timeline line should be at the center of the dot */
+.services-container::before {
+    left: calc(120px + 24px - 10px); /* min-width of marker + margin-right - half dot width */
+    /* 120px marker + 24px margin - 10px (half dot) = 134px */
+    /* Adjust if you change marker width or dot size */
+}
+
+.services-format {
+    margin-left: 56px;
+    flex: 1;
+    position: relative;
 }
 
 .services-format h3{
@@ -69,7 +136,7 @@
     font-size: 24px;
     color: #d4d4d4;
     line-height: 40px;
-    max-width: 300px;
+    max-width: 500px;
 }
 
 .services-readmore{
@@ -110,8 +177,24 @@
         max-width: 300px;
     }
     .services-container {
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
+        padding-left: 24px;
+    }
+        .services-container::before {
+        left: 24px;
+        width: 3px;
+    }
+    .services-timeline-label {
+        min-width: 40px;
+        font-size: 14px;
+        margin-right: 8px;
+    }
+    .services-timeline-dot {
+        width: 14px;
+        height: 14px;
+        left: 24px;
+    }
+    .services-format {
+        margin-left: 28px;
     }
     
 }
