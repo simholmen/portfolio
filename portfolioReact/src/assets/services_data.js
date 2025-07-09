@@ -10,7 +10,8 @@ const Services_Data = [
         ],
         s_no: "Sommer 2025",
         s_name: "Portfolio React",
-        s_desc: "Laget denne porteføljen i React for å vise frem arbeidet og ferdighetene mine."
+        s_desc: "Laget denne porteføljen i React for å vise frem arbeidet og ferdighetene mine.",
+        s_longdesc: "Dette er en mye lengre beskrivelse som kun vises når boksen er utvidet."
     },
     {
         s_label: "Vår 2025",
@@ -23,7 +24,8 @@ const Services_Data = [
         ],
         s_no: "Vår 2025",
         s_name: "Semesterprosjekt innen GIS og KI",
-        s_desc: "Semesterprosjekt som kombinerer GIS og kunstig intelligens for å finne en raskere rute enn Google Maps."
+        s_desc: "Semesterprosjekt som kombinerer GIS og kunstig intelligens for å finne en raskere rute enn Google Maps.",
+        s_longdesc: "Dette er en mye lengre beskrivelse som kun vises når boksen er utvidet."
     },
     {
         s_label: "Høst 2024",
@@ -35,7 +37,8 @@ const Services_Data = [
         ],
         s_no: "Høst 2024",
         s_name: "Semesterprosjekt for Kartverket",
-        s_desc: "Semesterprosjekt i samarbeid med Kartverket, der vi utviklet en crowdsourcing-løsning for å forbedre kartdata."
+        s_desc: "Semesterprosjekt i samarbeid med Kartverket, der vi utviklet en crowdsourcing-løsning for å forbedre kartdata.",
+        s_longdesc: "Dette er en mye lengre beskrivelse som kun vises når boksen er utvidet."
     },
 ]
 
