@@ -22,7 +22,7 @@ const About = () => {
                             I tillegg til mine tekniske ferdigheter, er jeg også en kreativ person som liker å jobbe med design og brukeropplevelse. Jeg tror at god design er viktig for å lage brukervennlige applikasjoner, og jeg prøver alltid å forbedre mine ferdigheter innen dette området.
                         </p>
                         <div className='about-stats'>
-                            <img src="https://github-readme-stats.vercel.app/api?username=simholmen&show_icons=true&theme=dark&title_color=#4dffb3&text_color=#4dffb3&icon_color=#4dffb3" alt="" />
+                            <img src="https://github-readme-stats.vercel.app/api?username=simholmen&show_icons=true&title_color=#4dffb3&text_color=#4dffb3&icon_color=#4dffb3" alt="" />
                             <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=simholmen&layout=compact" alt="" />
                             <img src="https://nirzak-streak-stats.vercel.app/?user=simholmen&theme=green" alt="" />
                         </div>
