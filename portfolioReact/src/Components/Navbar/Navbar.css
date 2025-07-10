@@ -29,10 +29,8 @@
     transition: 0.2s;
 }
 .navmenu li:hover .anchor-link p{
-    color: #cdcdcd;;
-
+    color: #cdcdcd;
 } 
-
 .navconnect:hover{
     transform: scale(1.1);
 }

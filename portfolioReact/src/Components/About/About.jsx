@@ -1,7 +1,6 @@
 import React from 'react'
 import './about.css'
 import profilebilde from '../../assets/profilbilde.jpeg'
-import theme_pattern from '../../assets/theme_pattern.svg'
 
 const About = () => {
     return (
@@ -16,10 +15,10 @@ const About = () => {
                 <div className="about-right">
                     <div className="about-para">
                         <p>
-                            Hei, jeg er Simen, en 22 år gammel IT-student ved Universitetet i Agder. Jeg har en stor interesse for programmering og teknologi, og jeg elsker å lære nye ting. Jeg har erfaring med flere programmeringsspråk, inkludert JavaScript, Python og Java. Jeg er også interessert i webutvikling og har jobbet med HTML, CSS og React.
+                            Hei, jeg er Simen, en 22 år gammel IT-student ved Universitetet i Agder. Jeg har en stor interesse for programmering og teknologi, og er alltid klar for å lære nye ting. Jeg har erfaring innen flere programmeringsspråk, men er alltid klar for å lære nye. I tillegg til mine tekniske ferdigheter, er jeg også en kreativ person som liker å finne nye løsninger på problemer, og prøver alltid å forbedre mine ferdigheter.
                         </p>
                         <p>
-                            I tillegg til mine tekniske ferdigheter, er jeg også en kreativ person som liker å jobbe med design og brukeropplevelse. Jeg tror at god design er viktig for å lage brukervennlige applikasjoner, og jeg prøver alltid å forbedre mine ferdigheter innen dette området.
+                            De teknologiene jeg har jobbet mest med er listet nedenfor sammen med hvor jeg har jobbet med dem. Jeg har også lært mye gjennom arbeidet som studentmentor og læringsassistent ved Universitetet i Agder og medlem av styre i NITO Studentene.
                         </p>
                         <div className='about-stats'>
                             <img src="https://github-readme-stats.vercel.app/api?username=simholmen&show_icons=true&title_color=#4dffb3&text_color=#4dffb3&icon_color=#4dffb3" alt="" />
