@@ -2,10 +2,10 @@ const Projects_Data = [
     {
         s_label: "Sommer 2025",
         s_icons: [
-            "https://skillicons.dev/icons?i=react",
-            "https://skillicons.dev/icons?i=js",
-            "https://skillicons.dev/icons?i=html",
-            "https://skillicons.dev/icons?i=css"
+            { src: "https://skillicons.dev/icons?i=react", name: "React" },
+            { src: "https://skillicons.dev/icons?i=js", name: "JavaScript" },
+            { src: "https://skillicons.dev/icons?i=html", name: "HTML" },
+            { src: "https://skillicons.dev/icons?i=css", name: "CSS" }
 
         ],
         s_no: "Sommer 2025",
@@ -20,11 +20,11 @@ const Projects_Data = [
     {
         s_label: "Vår 2025",
         s_icons: [
-            "https://skillicons.dev/icons?i=postgres",
-            "https://skillicons.dev/icons?i=python",
-            "https://skillicons.dev/icons?i=react",
-            "https://skillicons.dev/icons?i=docker",
-            "https://skillicons.dev/icons?i=supabase"
+            { src: "https://skillicons.dev/icons?i=postgres", name: "Postgres" },
+            { src: "https://skillicons.dev/icons?i=python", name: "Python" },
+            { src: "https://skillicons.dev/icons?i=react", name: "React" },
+            { src: "https://skillicons.dev/icons?i=docker", name: "Docker" },
+            { src: "https://skillicons.dev/icons?i=supabase", name: "Supabase" }
         ],
         s_no: "Vår 2025",
         s_name: "Semesterprosjekt innen GIS og KI",
@@ -41,11 +41,11 @@ const Projects_Data = [
     {
         s_label: "Høst 2024",
         s_icons: [
-            "https://skillicons.dev/icons?i=html",
-            "https://skillicons.dev/icons?i=css",
-            "https://skillicons.dev/icons?i=tailwind",
-            "https://skillicons.dev/icons?i=c",
-            "https://skillicons.dev/icons?i=dotnet",
+            { src: "https://skillicons.dev/icons?i=html", name: "HTML" },
+            { src: "https://skillicons.dev/icons?i=css", name: "CSS" },
+            { src: "https://skillicons.dev/icons?i=tailwind", name: "Tailwind" },
+            { src: "https://skillicons.dev/icons?i=c", name: "C" },
+            { src: "https://skillicons.dev/icons?i=dotnet", name: ".NET" },
         ],
         s_no: "Høst 2024",
         s_name: "Semesterprosjekt for Kartverket",

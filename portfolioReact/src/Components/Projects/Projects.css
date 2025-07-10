@@ -3,8 +3,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 80px;
-    margin: 0vw 3vw;
+    gap: 60px;
+    margin: 0 100px;
 }
 
 .projects-title {
@@ -12,17 +12,49 @@
 }
 
 .projects-title h1 {
-    padding: 0px 30px;
-    font-size: 80px;
+    padding: 30px 30px 0 30px;
+    font-size: 65px;
     font-weight: 600;
 }
 
-.skill-icon {
+.skill-icons {
     position: relative;
     display: inline-block;
+    margin-top: 10px;
     width: 50px;
     flex-direction: row;
 }
+
+.skill-icons-tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.skill-icons-tooltip .tooltip {
+    visibility: hidden;
+    opacity: 0;
+    width: max-content;
+    background: #222;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 6px 12px;
+    position: absolute;
+    z-index: 1;
+    bottom: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: opacity 0.2s;
+    pointer-events: none;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.skill-icons-tooltip:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
 .projects-icons-row {
     display: flex;
     flex-direction: row;
@@ -37,21 +69,20 @@
     padding: 60px;
     border-radius: 10px;
     border: 2px solid #fff;
-    transition: all 0.4s cubic-bezier(.4,2,.6,1);
+    transition: all 0.4s cubic-bezier(.4, 2, .6, 1);
     cursor: pointer;
     width: 100%;
-    min-width: 0;
-    max-width: 600px; 
-    min-height: 370px;  
+    max-width: 600px;
+    min-height: 370px;
     margin-left: 56px;
     position: relative;
 }
 
-.projects-format:hover{
+.projects-format:not(.expanded):hover {
     border: 2px solid #f48c06;
-    background: linear-gradient(45deg, #3f0000 , #583200 );
-    transform: scale(1.05);
-    transition: 0.4s;
+    background: linear-gradient(45deg, #3f0000, #583200);
+    cursor: pointer;
+
 }
 
 .projects-container {
@@ -76,14 +107,17 @@
     align-items: stretch;
     position: relative;
     min-height: 100px;
-    padding-left: 0px; /* No padding needed */
+    padding-left: 0px;
+    /* No padding needed */
     margin-bottom: 24px;
 
 }
+
 .projects-timeline-marker {
     display: flex;
     align-items: center;
-    min-width: 150px; /* Adjust as needed */
+    min-width: 150px;
+    /* Adjust as needed */
     margin-right: 24px;
     position: relative;
     justify-content: flex-end;
@@ -91,7 +125,7 @@
 
 .projects-timeline-label {
     text-align: right;
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
     margin-right: 12px;
     min-width: 60px;
@@ -111,18 +145,19 @@
 
 /* The timeline line should be at the center of the dot */
 .projects-container::before {
-    left: calc(120px + 24px - 10px); /* min-width of marker + margin-right - half dot width */
+    left: calc(120px + 24px - 10px);
+    /* min-width of marker + margin-right - half dot width */
     /* 120px marker + 24px margin - 10px (half dot) = 134px */
     /* Adjust if you change marker width or dot size */
 }
 
-.projects-format h3{
-    font-size: 28px;
+.projects-format h3 {
+    font-size: 24px;
     font-weight: 600;
 }
 
-.projects-format h2{
-    font-size: 38px;
+.projects-format h2 {
+    font-size: 30px;
     font-weight: 800;
     background: linear-gradient(90deg, #4aff4d, #4dffb3);
     background-clip: text;
@@ -131,44 +166,52 @@
 }
 
 .projects-format p {
-    font-size: 24px;
+    font-size: 20px;
     color: #d4d4d4;
     line-height: 40px;
     max-width: 500px;
 }
-.projects-longdesc p{
+
+.projects-longdesc p {
     margin: 0px 0 30px 0;
-    font-size: 24px;
+    font-size: 20px;
     color: #d4d4d4;
     line-height: 32px;
-    max-width: auto; /* or remove this line entirely for full width */
+    max-width: auto;
+    /* or remove this line entirely for full width */
 }
+
 .projects-format.expanded .projects-longdesc p {
-    max-width: 2000px; /* or none */
+    max-width: 2000px;
+    /* or none */
 }
+
 .projects-longdesc h3 {
     margin: 10px 0 20px 0;
-    font-size: 30px;
+    font-size: 26px;
     color: #d4d4d4;
     line-height: 32px;
 }
+
 .projects-learned {
     margin-top: 10px;
     color: #d4d4d4;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 28px;
     padding-left: 24px;
 }
+
 .projects-learned li {
     margin-bottom: 8px;
 }
 
-.projects-readmore{
+.projects-readmore {
     display: flex;
     gap: 20px;
     align-items: center;
     margin-top: 20px;
 }
+
 .projects-format.expanded {
     min-width: auto;
     min-height: auto;
@@ -176,6 +219,7 @@
     box-shadow: 0 0 40px #000a;
     border: 3px solid #f48c06;
 }
+
 .projects-github-btn {
     display: inline-block;
     margin: 0 16px 16px 0px;
@@ -185,7 +229,13 @@
     border-radius: 6px;
     text-decoration: none;
     font-weight: bold;
+    cursor: pointer;
 }
+
+.projects-github-btn:hover {
+    background: #333;
+}
+
 .projects-youtube-btn {
     display: inline-block;
     padding: 10px 20px;
@@ -196,56 +246,71 @@
     font-weight: bold;
 }
 
+.projects-youtube-btn:hover {
+    background: #ff0000;
+}
+
 @media(max-width: 768px) {
     .projects {
         gap: 70px;
         margin: 20px 70px;
         align-items: start;
     }
+
     .projects-title h1 {
         padding: 0px;
         font-size: 50px;
     }
+
     .projects-title img {
         width: 130px;
         right: -20px;
     }
+
     .projects-format {
         gap: 20px;
         padding: 32px;
     }
-    .projects-format h2{
+
+    .projects-format h2 {
         font-size: 28px;
     }
-    .projects-format p{
+
+    .projects-format p {
         font-size: 18px;
         line-height: 32px;
         max-width: 300px;
     }
+
     .projects-readmore {
         font-size: 18px;
         line-height: 32px;
         max-width: 300px;
     }
+
     .projects-container {
         padding-left: 24px;
     }
-        .projects-container::before {
+
+    .projects-container::before {
         left: 24px;
         width: 3px;
     }
+
     .projects-timeline-label {
         min-width: 40px;
         font-size: 14px;
         margin-right: 8px;
     }
+
     .projects-timeline-dot {
         width: 14px;
         height: 14px;
         left: 24px;
     }
+
     .projects-format {
         margin-left: 28px;
     }
-    
+
 }

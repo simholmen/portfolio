@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 80px;
+    gap: 60px;
     margin: 80px 170px;
 }
 
@@ -13,13 +13,8 @@
 
 .contact-title h1 {
     padding: 0px 30px;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 600;
-}
-
-.contact-section {
-    display: flex;
-    gap: 150px;
 }
 
 .contact-details {
@@ -27,7 +22,7 @@
     flex-direction: column;
     gap: 30px;
     color: #d8d8d8;
-    font-size: 22px;
+    font-size: 20px;
 
 }
 
@@ -41,10 +36,10 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     background-color: #161513;
     color: #d8d8d8;
-    font-size: 16px;
+    font-size: 12px;
 }
 .contact-media {
     display: flex;
@@ -52,8 +47,7 @@
     gap: 20px;
 }
 .contact-media img {
-    width: 80px;
-    height: 80px;
+    width: 60px;
 }
 .contact-media img:hover {
     transform: scale(1.1);

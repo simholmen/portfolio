@@ -7,7 +7,7 @@ const Hero = () => {
         <div id="home" className='hero'>
             <img src={profilebilde} alt="Profilbilde" />
             <h1><span>Simen Emil Wiig Holmen</span></h1>
-            <p> Jeg er en 23 år gammel student som studerer 3. året på IT ved Universitetet i
+            <p> Jeg er en 23 år gammel student som studerer 3. året på IT og Informasjonsystemer ved Universitetet i
                 Agder.
             </p>
             <div className="hero-action">

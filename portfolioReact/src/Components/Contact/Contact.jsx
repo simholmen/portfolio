@@ -19,7 +19,6 @@ const Contact = () => {
                     <img src="https://skillicons.dev/icons?i=github" alt="GitHub" />
                 </a>
             </div>
-            <div className="contact-section">
                 <div className="contact-details">
                     <div className="contact-detail">
                         <img src={mail_icon} alt="" /> <p>simen.emil.wiig@gmail.com</p>
@@ -33,7 +32,6 @@ const Contact = () => {
                         <img src={location_icon} alt="" /> <p>Kristiansand, Norge</p>
                     </div>
                 </div>
-            </div>
             <div className="footer">
                 <p>© 2025 Simen Emil Wiig Holmen. All rights reserved.</p>
             </div>

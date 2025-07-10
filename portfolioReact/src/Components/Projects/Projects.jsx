@@ -67,7 +67,10 @@ const Projects = () => {
                                 )}
                                 <div className='projects-icons-row'>
                                     {project.s_icons && project.s_icons.map((icon, idx) => (
-                                        <img className='skill-icon' src={icon} alt={project.s_name + " ikon"} key={idx} />
+                                        <div className="skill-icons-tooltip" key={idx}>
+                                            <img className='skill-icons' src={icon.src} alt={icon.name + " ikon"} />
+                                            <span className="tooltip">{icon.name}</span>
+                                        </div>
                                     ))}
                                 </div>
                                 <div className='projects-readmore'>
