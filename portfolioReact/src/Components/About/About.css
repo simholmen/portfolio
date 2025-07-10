@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+    margin: 2vw 3vw;
 }
 .about-title h1{
     padding: 0px 30px;
@@ -24,6 +24,7 @@
 }
 .about-right{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     gap: 80px;
 }
@@ -37,9 +38,10 @@
 }
 .about-stats{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 40px;
     font-size: 24px;
     font-weight: 500;
 }

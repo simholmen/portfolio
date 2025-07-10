@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+    margin: 0vw 3vw;
 }
 
 .projects-title {
@@ -39,9 +39,8 @@
     border: 2px solid #fff;
     transition: all 0.4s cubic-bezier(.4,2,.6,1);
     cursor: pointer;
-    min-width: 600px; 
-    width: 600px;
-    min-width: 600px;
+    width: 100%;
+    min-width: 0;
     max-width: 600px; 
     min-height: 370px;  
     margin-left: 56px;
