@@ -1,5 +1,5 @@
 import React from 'react'
-import './hero.css'
+import './Hero.css'
 import profilebilde from '../../assets/profilbilde.png'
 
 const Hero = () => {
