@@ -1,4 +1,4 @@
-const Services_Data = [
+const Projects_Data = [
     {
         s_label: "Sommer 2025",
         s_icons: [
@@ -60,4 +60,4 @@ const Services_Data = [
     },
 ]
 
-export default Services_Data;
+export default Projects_Data;

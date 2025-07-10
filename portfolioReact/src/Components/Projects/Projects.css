@@ -1,4 +1,4 @@
-.services {
+.projects {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,12 +7,11 @@
     margin: 80px 170px;
 }
 
-.services-title {
+.projects-title {
     position: relative;
-
 }
 
-.services-title h1 {
+.projects-title h1 {
     padding: 0px 30px;
     font-size: 80px;
     font-weight: 600;
@@ -24,13 +23,13 @@
     width: 50px;
     flex-direction: row;
 }
-.services-icons-row {
+.projects-icons-row {
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
 
-.services-format {
+.projects-format {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,19 +48,19 @@
     position: relative;
 }
 
-.services-format:hover{
+.projects-format:hover{
     border: 2px solid #f48c06;
     background: linear-gradient(45deg, #3f0000 , #583200 );
     transform: scale(1.05);
     transition: 0.4s;
 }
 
-.services-container {
+.projects-container {
     position: relative;
     padding-left: 0px;
 }
 
-.services-container::before {
+.projects-container::before {
     content: '';
     position: absolute;
     left: 92px;
@@ -73,7 +72,7 @@
     z-index: 0;
 }
 
-.services-timeline-item {
+.projects-timeline-item {
     display: flex;
     align-items: stretch;
     position: relative;
@@ -82,7 +81,7 @@
     margin-bottom: 24px;
 
 }
-.services-timeline-marker {
+.projects-timeline-marker {
     display: flex;
     align-items: center;
     min-width: 150px; /* Adjust as needed */
@@ -91,7 +90,7 @@
     justify-content: flex-end;
 }
 
-.services-timeline-label {
+.projects-timeline-label {
     text-align: right;
     font-size: 18px;
     color: #fff;
@@ -99,7 +98,7 @@
     min-width: 60px;
 }
 
-.services-timeline-dot {
+.projects-timeline-dot {
     width: 20px;
     height: 20px;
     background: #1f53fe;
@@ -112,18 +111,18 @@
 }
 
 /* The timeline line should be at the center of the dot */
-.services-container::before {
+.projects-container::before {
     left: calc(120px + 24px - 10px); /* min-width of marker + margin-right - half dot width */
     /* 120px marker + 24px margin - 10px (half dot) = 134px */
     /* Adjust if you change marker width or dot size */
 }
 
-.services-format h3{
+.projects-format h3{
     font-size: 28px;
     font-weight: 600;
 }
 
-.services-format h2{
+.projects-format h2{
     font-size: 38px;
     font-weight: 800;
     background: linear-gradient(90deg, #4aff4d, #4dffb3);
@@ -132,53 +131,53 @@
     -webkit-text-fill-color: transparent;
 }
 
-.services-format p {
+.projects-format p {
     font-size: 24px;
     color: #d4d4d4;
     line-height: 40px;
     max-width: 500px;
 }
-.services-longdesc p{
+.projects-longdesc p{
     margin: 0px 0 30px 0;
     font-size: 24px;
     color: #d4d4d4;
     line-height: 32px;
     max-width: auto; /* or remove this line entirely for full width */
 }
-.services-format.expanded .services-longdesc p {
+.projects-format.expanded .projects-longdesc p {
     max-width: 2000px; /* or none */
 }
-.services-longdesc h3 {
+.projects-longdesc h3 {
     margin: 10px 0 20px 0;
     font-size: 30px;
     color: #d4d4d4;
     line-height: 32px;
 }
-.services-learned {
+.projects-learned {
     margin-top: 10px;
     color: #d4d4d4;
     font-size: 22px;
     line-height: 28px;
     padding-left: 24px;
 }
-.services-learned li {
+.projects-learned li {
     margin-bottom: 8px;
 }
 
-.services-readmore{
+.projects-readmore{
     display: flex;
     gap: 20px;
     align-items: center;
     margin-top: 20px;
 }
-.services-format.expanded {
+.projects-format.expanded {
     min-width: auto;
     min-height: auto;
     z-index: 1;
     box-shadow: 0 0 40px #000a;
     border: 3px solid #f48c06;
 }
-.services-github-btn {
+.projects-github-btn {
     display: inline-block;
     margin: 0 16px 16px 0px;
     padding: 10px 20px;
@@ -188,7 +187,7 @@
     text-decoration: none;
     font-weight: bold;
 }
-.services-youtube-btn {
+.projects-youtube-btn {
     display: inline-block;
     padding: 10px 20px;
     background: #b60000;
@@ -199,54 +198,54 @@
 }
 
 @media(max-width: 768px) {
-    .services {
+    .projects {
         gap: 70px;
         margin: 20px 70px;
         align-items: start;
     }
-    .services-title h1 {
+    .projects-title h1 {
         padding: 0px;
         font-size: 50px;
     }
-    .services-title img {
+    .projects-title img {
         width: 130px;
         right: -20px;
     }
-    .services-format {
+    .projects-format {
         gap: 20px;
         padding: 32px;
     }
-    .services-format h2{
+    .projects-format h2{
         font-size: 28px;
     }
-    .services-format p{
+    .projects-format p{
         font-size: 18px;
         line-height: 32px;
         max-width: 300px;
     }
-    .services-readmore {
+    .projects-readmore {
         font-size: 18px;
         line-height: 32px;
         max-width: 300px;
     }
-    .services-container {
+    .projects-container {
         padding-left: 24px;
     }
-        .services-container::before {
+        .projects-container::before {
         left: 24px;
         width: 3px;
     }
-    .services-timeline-label {
+    .projects-timeline-label {
         min-width: 40px;
         font-size: 14px;
         margin-right: 8px;
     }
-    .services-timeline-dot {
+    .projects-timeline-dot {
         width: 14px;
         height: 14px;
         left: 24px;
     }
-    .services-format {
+    .projects-format {
         margin-left: 28px;
     }
     

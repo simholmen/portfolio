@@ -26,6 +26,14 @@ const Hero = () => {
                 >
                     Last ned CV
                 </a>
+                                <a
+                    href="https://github.com/simholmen"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hero-github"
+                >
+                    GitHub
+                </a>
             </div>
         </div>
     )
