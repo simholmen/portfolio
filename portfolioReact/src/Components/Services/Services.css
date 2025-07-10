@@ -41,6 +41,9 @@
     transition: all 0.4s cubic-bezier(.4,2,.6,1);
     cursor: pointer;
     min-width: 600px; 
+    width: 600px;
+    min-width: 600px;
+    max-width: 600px; 
     min-height: 370px;  
     margin-left: 56px;
     position: relative;
@@ -135,6 +138,32 @@
     line-height: 40px;
     max-width: 500px;
 }
+.services-longdesc p{
+    margin: 0px 0 30px 0;
+    font-size: 24px;
+    color: #d4d4d4;
+    line-height: 32px;
+    max-width: auto; /* or remove this line entirely for full width */
+}
+.services-format.expanded .services-longdesc p {
+    max-width: 2000px; /* or none */
+}
+.services-longdesc h3 {
+    margin: 10px 0 20px 0;
+    font-size: 30px;
+    color: #d4d4d4;
+    line-height: 32px;
+}
+.services-learned {
+    margin-top: 10px;
+    color: #d4d4d4;
+    font-size: 22px;
+    line-height: 28px;
+    padding-left: 24px;
+}
+.services-learned li {
+    margin-bottom: 8px;
+}
 
 .services-readmore{
     display: flex;
@@ -143,11 +172,30 @@
     margin-top: 20px;
 }
 .services-format.expanded {
-    width: auto;        /* Larger width for expanded state */
+    min-width: auto;
     min-height: auto;
     z-index: 1;
     box-shadow: 0 0 40px #000a;
     border: 3px solid #f48c06;
+}
+.services-github-btn {
+    display: inline-block;
+    margin: 0 16px 16px 0px;
+    padding: 10px 20px;
+    background: #24292f;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.services-youtube-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #b60000;
+    color: #ffffff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 @media(max-width: 768px) {
