@@ -253,13 +253,14 @@
 @media(max-width: 768px) {
     .projects {
         gap: 70px;
-        margin: 20px 70px;
-        align-items: start;
+        margin-top: 20px;
+        align-items: center;
     }
 
     .projects-title h1 {
         padding: 0px;
         font-size: 50px;
+        margin: 0px 5vw;
     }
 
     .projects-title img {
@@ -313,23 +314,35 @@
     .projects-format {
         margin-left: 0px;
     }
+
     .skill-icons {
         width: 40px;
         flex-direction: row;
     }
 
 }
+
 @media(max-width: 650px) {
+    .projects-format {
+        gap: 12px;
+        max-width: 80vw;
+        /* Even closer to full width */
+        min-width: 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
     .projects-title h1 {
-        font-size: 40px;
+        font-size: 38px;
+        padding: 30px 30px 0 30px;
     }
 
     .projects-format h2 {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .projects-format p {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 28px;
         max-width: 100%;
     }
@@ -340,6 +353,29 @@
 
     .projects-container::before {
         display: none;
+    }
+
+    .projects-longdesc p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .projects-longdesc h3 {
+        font-size: 20px;
+    }
+    .projects-learned {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .projects-icons-row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 10px;
     }
 
 }

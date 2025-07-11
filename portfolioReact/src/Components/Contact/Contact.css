@@ -58,10 +58,11 @@
         gap: 50px;
         margin: 50px 70px;
         align-items: start;
+        margin: 5vw 6vw;
     }
     .contact-title h1 {
         padding: 0px;
-        font-size: 50px;
+        font-size: 40px;
         font-weight: 600;
     }
     .contact-title img {
@@ -73,8 +74,12 @@
     }
     .contact-details {
         gap: 20px;
+        font-size: 12px;
     }
     .contact-details img {
         width: 25px;
+    }
+    .footer {
+        font-size: 10px;
     }
 }
