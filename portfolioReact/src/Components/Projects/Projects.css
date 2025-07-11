@@ -319,3 +319,27 @@
     }
 
 }
+@media(max-width: 650px) {
+    .projects-title h1 {
+        font-size: 40px;
+    }
+
+    .projects-format h2 {
+        font-size: 24px;
+    }
+
+    .projects-format p {
+        font-size: 16px;
+        line-height: 28px;
+        max-width: 100%;
+    }
+
+    .projects-timeline-marker {
+        display: none;
+    }
+
+    .projects-container::before {
+        display: none;
+    }
+
+}
