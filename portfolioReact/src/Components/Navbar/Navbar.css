@@ -40,9 +40,17 @@
 }
 .nav-mob-close{
     display: none;
+    width: 40px;   /* or your preferred size */
+    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
 }
 .nav-mob-open{
     display: none;
+    width: 40px;   /* or your preferred size */
+    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
 }
 @media (max-width: 768px) {
     .navbar{
@@ -54,13 +62,13 @@
     .nav-mob-open{
         display: block;
         position: fixed;
-        right: 30px;
+        right: 0px;
     }
     .nav-mob-close{
         display: block;
         position: relative;
         top: 30px;
-        left: 290px;
+        left: 250px;
         width: 30px;
     }
     .navmenu{

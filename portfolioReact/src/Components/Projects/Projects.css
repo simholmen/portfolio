@@ -300,17 +300,22 @@
     .projects-timeline-label {
         min-width: 40px;
         font-size: 14px;
-        margin-right: 8px;
+        margin-right: 20px;
+        text-align: left;
     }
 
     .projects-timeline-dot {
         width: 14px;
         height: 14px;
-        left: 24px;
+        left: -138px;
     }
 
     .projects-format {
-        margin-left: 28px;
+        margin-left: 0px;
+    }
+    .skill-icons {
+        width: 40px;
+        flex-direction: row;
     }
 
 }

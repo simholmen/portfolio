@@ -13,7 +13,7 @@ const About = () => {
                     <img src={profilebilde} alt="Profilbilde" />
                     <div className="about-para">
                         <p>
-                            Hei, jeg er Simen, en 22 år gammel IT-student ved Universitetet i Agder. Jeg har en stor interesse for programmering og teknologi, og er alltid klar for å lære nye ting. Jeg har erfaring innen flere programmeringsspråk, men er alltid klar for å lære nye. I tillegg til mine tekniske ferdigheter, er jeg også en kreativ person som liker å finne nye løsninger på problemer, og prøver alltid å forbedre mine ferdigheter.
+                            Hei, jeg er en 23 år gammel IT-student ved Universitetet i Agder. Jeg har en stor interesse for programmering og teknologi, og er alltid klar for å lære nye ting. Jeg har erfaring innen flere programmeringsspråk, men er alltid klar for å lære nye. I tillegg til mine tekniske ferdigheter, er jeg også en kreativ person som liker å finne nye løsninger på problemer, og prøver alltid å forbedre mine ferdigheter.
                         </p>
                         <p>
                             De teknologiene jeg har jobbet mest med er listet nedenfor sammen med hvor jeg har jobbet med dem. Jeg har også lært mye gjennom arbeidet som studentmentor og læringsassistent ved Universitetet i Agder og medlem av styre i NITO Studentene.
