@@ -4,7 +4,7 @@ Dette er min personlige portefølje-nettside, bygget med **React** og **Vite**. 
 
 ## 🌐 Live Demo
 
-[Se porteføljen live]([https://your-portfolio-url.vercel.app/](https://portfolioreact-gxg203a32-simholmens-projects.vercel.app))
+[Se porteføljen live](https://portfolioreact-gxg203a32-simholmens-projects.vercel.app)
 
 ## 🚀 Funksjoner
 
