@@ -57,7 +57,7 @@ public/
 ## 📧 Kontakt
 
 - **E-post:** simen.emil.wiig@gmail.com
-- **LinkedIn:** [simholmen](https://www.linkedin.com/in/simenholmen/)
+- **LinkedIn:** [simenholmen](https://www.linkedin.com/in/simenholmen/)
 - **GitHub:** [simholmen](https://github.com/simholmen)
 
 ---

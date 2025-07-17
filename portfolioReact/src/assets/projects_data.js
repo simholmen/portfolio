@@ -1,4 +1,18 @@
 const Projects_Data = [
+        {
+        s_label: "Sommer 2025",
+        s_icons: [
+            { src: "https://skillicons.dev/icons?i=python", name: "Python" }
+        ],
+        s_no: "Sommer 2025",
+        s_name: "Padel turnering prosjekt",
+        s_desc: "Et sommerprosjekt som går ut på å programmere en egen versjon av en Padel-turnering i Python.",
+        s_longdesc: [
+            "Dette sommerprosjektet gikk ut på å lage et Python-program for å håndtere logikken til en padel turnering. Vi i Nito studentene Kristiansand arrangerer turneringer i Padel, og for å slippe å betale for en trener eller en app for å håndtere en turnering, kan vi like gjerne kode en selv."
+        ],
+        s_github: "https://github.com/simholmen/padelpython",
+        s_learned: "Forståelse av Python\n Programmering uten hjelpemidler"
+    },
     {
         s_label: "Sommer 2025",
         s_icons: [
